@@ -1,0 +1,1 @@
+A demo web project for a diving services website. Built with Gulp.js to automate build tasks and optimize frontend assets. Created to showcase skills in layout, project structure, and tooling. Not for commercial use. All rights reserved. For educational and portfolio purposes only.
