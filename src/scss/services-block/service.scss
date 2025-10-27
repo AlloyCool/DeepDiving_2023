@@ -1,0 +1,190 @@
+.services__container{
+    height: 100vh;
+    background-size: cover;
+
+    background-image: url("../../img/bg/bg-services.png");
+
+}
+
+.service__content{
+    padding: 62px 0 34px 21px;
+    margin: 90px auto;
+    height: 1276px;
+    width: 1642px;
+    background-color: #ffffff2c;
+    border-radius: 16px;
+    overflow: hidden;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.swiper_header{
+    // border: 1px solid red;
+    border-radius: 16px;
+}
+
+
+
+// .service__header{
+//     display: flex;
+//     flex-direction: column;
+//     gap: 27px;
+//     // border: 1px solid red;
+// }
+
+// .service__title {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 10px;
+//     font-size: 22px;
+//     font-weight: 400;
+// }
+
+// .service__header h1{
+//     font-size: 64px;
+//     font-weight: 400;
+//     max-width: 850px;
+//     // border: 1px solid green;
+//     }
+
+
+.service__slider-buttons{
+    display: flex;
+    gap: 19px;
+}
+
+
+
+
+
+
+.service__slider{
+
+    display: flex;
+    gap: 15px;
+    height: 630px;
+    width:900px;
+    padding: 0 0 50px 0 ;
+    // border: 1px solid red;
+    border-radius: 16px;
+    background-size: cover;
+
+
+    .service__slider_content{
+        position: absolute;
+        bottom: 54px;
+        left: 22rem;
+        // border: 1px solid red;
+
+        display: flex;
+        flex-direction: column;
+        gap:62px;
+
+        p{
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+
+    
+
+    &--one{
+        position: relative;
+        background-image: url("../../img/slider-bg/services-01.jpg");
+    }
+
+    &--two{
+        background-image: url("../../img/random/aloy-horizon-forbidden-west-2022-games-3840x2160-7931.jpg");
+    }
+
+    &--three{
+        background-image: url("../../img/random/horizon-forbidden-3840x2160-10643.jpg");
+    }
+
+    &--four{
+        background-image: url("../../img/random/horizon-forbidden-3840x2160-10644.jpg");
+    }
+
+    &--five{
+        background-image: url("../../img/random/wallpaperflare.com_wallpaper.jpg");
+    }
+
+    &--one,
+    &--two,
+    &--three,
+    &--four,
+    &--five{
+        filter: grayScale(100%);        
+        transition: all linear .2s;
+    }
+
+
+    &--one:hover,
+    &--two:hover,
+    &--three:hover,
+    &--four:hover,
+    &--five:hover
+    {
+        transition: all linear .2s;
+        filter: grayScale(0%)        
+    }
+
+    
+}
+
+
+
+.service__slider-controller{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+    // margin: 0 auto;
+    width: fit-content;
+    // border: 1px solid red;
+}
+
+.service__slider-see__more a{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    transition: all linear .2s;
+}
+
+.service__slider-see__more a:hover{
+    color: #FFC96F;
+    transition: all linear .2s;
+}
+
+.service__slider-see__more li{
+    font-size: 22px;
+}
+
+.service__slider-see__more small{
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+.swiper-wrapper{
+    display: flex; 
+    gap: 1px;
+    // border: 1px  solid red;-
+}
+
+#swiper1{
+    overflow: hidden;
+
+    // border: 1px solid red;
+}

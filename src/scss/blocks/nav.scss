@@ -1,0 +1,23 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav__list ul{
+        display: flex;
+        gap: 35px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .nav__social{
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .nav__social li{
+        font-size: 25px;
+    }
+}
+

@@ -1,0 +1,19 @@
+.brands__content{
+    margin: 200px auto;
+    background-color: #ffffff2c;
+    width: 1642px;
+    height: 594px;
+    border-radius: 16px;
+    padding: 62px 21px 34px 21px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 178px;
+}
+
+.brands__icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

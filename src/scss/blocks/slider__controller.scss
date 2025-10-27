@@ -1,0 +1,43 @@
+.slider__controller{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    pointer-events: all;
+    color: white;
+    // border: 1px solid red;
+}
+
+.slider__controller-counter{
+    color: white;
+}
+
+.slider__controller-counter {
+	// padding-left: 16px;
+	display: flex;
+    column-gap: 6px;
+    justify-content: flex-end;
+	align-items: flex-end;
+
+    color: rgb(255, 255, 255);
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1;
+	text-align: right;
+}
+
+#fasdgsdf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    // border: 1px solid forestgreen;
+    width:fit-content;
+}
+
+.slider__controller-counter, .swiper-pagination-current {
+    font-size: 32px;
+	line-height: 0.75;
+	color: #FFC96F;
+}
+

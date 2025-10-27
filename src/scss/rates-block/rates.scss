@@ -1,0 +1,30 @@
+.rates__container{
+    height: 110vh;
+}
+
+.rates__content{
+    margin: 90px auto;
+
+    padding: 0px 0 34px 21px;
+    // border: 1px solid red;
+    width: 1642px;
+
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.rates__block-main{
+
+    display: flex;
+    flex-direction: column;
+    gap: 77px;
+
+    width: 737px;
+    p{
+        font-size: 40px;
+        font-weight: 400;
+    }
+}

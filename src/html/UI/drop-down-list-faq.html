@@ -1,0 +1,167 @@
+<div class="ddl__box-faq">
+
+    <div class="ddl__box-main-faq">
+        <button class="ddl" id="dd10">
+            What if I run out of air?
+            <i class="fa-solid fa-arrow-right" id="arrow10"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown10">
+            <div class="dropdown__inner">
+                <li>This is impossible because there is always enough
+                    air for an hour after we finish our dives</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <button class="ddl" id="dd11">
+            How long will the dive last?
+            <i class="fa-solid fa-arrow-right" id="arrow11"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown11">
+            <div class="dropdown__inner">
+                <li>This is impossible because there is always enough
+                    air for an hour after we finish our dives</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <button class="ddl" id="dd12">
+            Is it possible to dive with poor eyesight?
+            <i class="fa-solid fa-arrow-right" id="arro12"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown12">
+            <div class="dropdown__inner">
+                <li>This is impossible because there is always enough
+                    air for an hour after we finish our dives</li>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ddl__box-main">
+        <button class="ddl" id="dd13">
+            Do I need a theory??
+            <i class="fa-solid fa-arrow-right" id="arro13"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown13">
+            <div class="dropdown__inner">
+                <li>This is impossible because there is always enough
+                    air for an hour after we finish our dives</li>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <button class="ddl" id="dd14">
+            Do I need to have my own equipment?
+            <i class="fa-solid fa-arrow-right" id="arro14"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown14">
+            <div class="dropdown__inner">
+                <li>This is impossible because there is always enough
+                    air for an hour after we finish our dives</li>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<script>
+    const dropdownBtn10 = document.getElementById("dd10");
+    const dropdownBtn11 = document.getElementById("dd11");
+    const dropdownBtn12 = document.getElementById("dd12");
+    const dropdownBtn13 = document.getElementById("dd13");
+    const dropdownBtn14 = document.getElementById("dd14");
+
+    const dropdownMenu10 = document.getElementById("dropdown10");
+    const dropdownMenu11 = document.getElementById("dropdown11");
+    const dropdownMenu12 = document.getElementById("dropdown12");
+    const dropdownMenu13 = document.getElementById("dropdown13");
+    const dropdownMenu14 = document.getElementById("dropdown14");
+
+
+    const toggleArrow10 = document.getElementById("arrow10");
+    const toggleArrow11 = document.getElementById("arrow11");
+    const toggleArrow12 = document.getElementById("arro12");
+    const toggleArrow13 = document.getElementById("arro13");
+    const toggleArrow14 = document.getElementById("arro14");
+
+
+    // Toggle dropdown function
+    const toggleDropdown10 = function () {
+        dropdownMenu10.classList.toggle("show");
+        toggleArrow10.classList.toggle("arrow");
+    };
+
+    const toggleDropdown11 = function () {
+        dropdownMenu11.classList.toggle("show");
+        toggleArrow11.classList.toggle("arrow11");
+    };
+
+    const toggleDropdown12 = function () {
+        dropdownMenu12.classList.toggle("show");
+        toggleArrow12.classList.toggle("arro12");
+    };
+
+    const toggleDropdown13 = function () {
+        dropdownMenu13.classList.toggle("show");
+        toggleArrow13.classList.toggle("arro13");
+    };
+
+    const toggleDropdown14 = function () {
+        dropdownMenu14.classList.toggle("show");
+        toggleArrow14.classList.toggle("arro14");
+    };
+
+    // Toggle dropdown open/close when dropdown button is clicked
+    dropdownBtn10.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown10();
+    });
+
+    dropdownBtn11.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown11();
+    });
+
+    dropdownBtn12.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown12();
+    });
+
+    dropdownBtn13.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown13();
+    });
+
+    dropdownBtn14.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown14();
+    });
+
+
+
+    // Close dropdown when dom element is clicked
+    // document.documentElement.addEventListener("click", function () {
+    //     if (dropdownMenu.classList.contains("show")) {
+    //         toggleDropdown();
+    //     }
+    // });
+
+    // document.documentElement.addEventListener("click", function () {
+    //     if (dropdownMenu2.classList.contains("show")) {
+    //         toggleDropdown2();
+    //     }
+    // });
+
+</script>

@@ -1,0 +1,118 @@
+.feedback__container{
+    height: 100vh;
+    display: flex;
+}
+
+.feedback__content--header{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.feedback__content{
+    display: flex;
+
+
+    padding:145px 80px;
+    margin: 90px auto;
+    height: 721px;
+    width: 1759px;
+    background-color: #ffffff2c;
+    border-radius: 16px;
+    overflow: hidden;
+
+
+    background-image: url("../../img/bg/feedback-bg-main.png");
+    background-position: center center;
+
+    // border: 1px solid red;
+
+
+}
+
+.feedback__form{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 800px;
+
+    // border: 1px solid red;
+
+    button{
+        margin-top: 49px;
+    }
+
+    // border: 1px solid red;
+
+    .feedback__form-inner{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+
+    }
+
+    .feedback__form-text{
+        background-color: #0000006c;
+        border-radius: 16px;
+
+        height: 49px;
+        width:49%;
+        padding:12px;
+
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+
+    .feedback__form-textArea{
+        background-color: #0000006c;
+        border-radius: 16px;
+        color: white;
+        outline: none;
+        padding:12px;
+        resize: none;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .feedback__form-text::placeholder,
+    .feedback__form-textArea::placeholder{
+        color: white;
+    }
+    .feedback__form-text:focus,
+    .feedback__form-textArea:focus{
+        color: #FFC96F;
+    }
+
+
+
+
+}
+
+.feedback__socialmedia{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.feedback__socialmedia a{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    // border: 1px solid red;
+}
+
+.feedback__socialmedia li{
+    font-size: 30px;
+}
+
+.feedback__socialmedia a p{
+    transition: all linear .2s;
+}
+
+.feedback__socialmedia a p:hover{
+    color: #FFC96F;
+    transition: all linear .2s;
+}

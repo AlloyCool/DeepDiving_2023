@@ -1,0 +1,28 @@
+.cta__content{
+    margin-top: 12rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    // border: 1px solid red;
+    width: 870px;
+}
+
+.cta__content-text{
+    font-size: 64px;
+    color: #C8C8C8;
+    font-weight: 200;
+}
+
+.cta__content-text strong{
+    color: white;
+    font-weight: 600;
+}
+
+.cta__content .btn{
+    color: white;
+}
+
+
+
+

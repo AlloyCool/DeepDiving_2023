@@ -1,0 +1,175 @@
+<div class="ddl__box">
+
+    <div class="ddl__box-main">
+        <button class="ddl" id="ddl">
+            Walk along the coast
+            <i class="fa-solid fa-arrow-right" id="arrow"></i>
+            <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+        </button>
+        <div class="dropdown" id="dropdown">
+            <div class="dropdown__inner">
+                <p>2-3h</p>
+                <p>600 $</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <div>
+            <button class="ddl" id="dd2">
+                Exploration of a sunken plane
+                <i class="fa-solid fa-arrow-right" id="arro2"></i>
+                <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+            </button>
+            <div class="dropdown" id="dropdown2">
+                <div class="dropdown__inner">
+                    <p>5-10h</p>
+                    <p>600 $</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <div>
+            <button class="ddl" id="dd3">
+                Freediving
+                <i class="fa-solid fa-arrow-right" id="arro3"></i>
+                <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+            </button>
+            <div class="dropdown" id="dropdown3">
+                <div class="dropdown__inner">
+                    <p>5-10h</p>
+                    <p>600 $</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <div>
+            <button class="ddl" id="dd4">
+                Deep diveing
+                <i class="fa-solid fa-arrow-right" id="arro4"></i>
+                <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+            </button>
+            <div class="dropdown" id="dropdown4">
+                <div class="dropdown__inner">
+                    <p>5-10h</p>
+                    <p>600 $</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="ddl__box-main">
+        <div>
+            <button class="ddl" id="dd5">
+                Something new
+                <i class="fa-solid fa-arrow-right" id="arro5"></i>
+                <!-- <i class="fa-solid fa-arrow-right" id="arrow"></i> -->
+            </button>
+            <div class="dropdown" id="dropdown5">
+                <div class="dropdown__inner">
+                    <p>5-10h</p>
+                    <p>600 $</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+</div>
+
+<script>
+    const dropdownBtn = document.getElementById("ddl");
+    const dropdownBtn2 = document.getElementById("dd2");
+    const dropdownBtn3 = document.getElementById("dd3");
+    const dropdownBtn4 = document.getElementById("dd4");
+    const dropdownBtn5 = document.getElementById("dd5");
+
+    const dropdownMenu = document.getElementById("dropdown");
+    const dropdownMenu2 = document.getElementById("dropdown2");
+    const dropdownMenu3 = document.getElementById("dropdown3");
+    const dropdownMenu4 = document.getElementById("dropdown4");
+    const dropdownMenu5 = document.getElementById("dropdown5");
+
+
+    const toggleArrow = document.getElementById("arrow");
+    const toggleArrow2 = document.getElementById("arro2");
+    const toggleArrow3 = document.getElementById("arro3");
+    const toggleArrow4 = document.getElementById("arro4");
+    const toggleArrow5 = document.getElementById("arro5");
+
+
+    // Toggle dropdown function
+    const toggleDropdown = function () {
+        dropdownMenu.classList.toggle("show");
+        toggleArrow.classList.toggle("arrow");
+    };
+
+    const toggleDropdown2 = function () {
+        dropdownMenu2.classList.toggle("show");
+        toggleArrow2.classList.toggle("arro2");
+    };
+
+    const toggleDropdown3 = function () {
+        dropdownMenu3.classList.toggle("show");
+        toggleArrow3.classList.toggle("arro3");
+    };
+
+    const toggleDropdown4 = function () {
+        dropdownMenu4.classList.toggle("show");
+        toggleArrow4.classList.toggle("arro4");
+    };
+
+    const toggleDropdown5 = function () {
+        dropdownMenu5.classList.toggle("show");
+        toggleArrow5.classList.toggle("arro5");
+    };
+
+    // Toggle dropdown open/close when dropdown button is clicked
+    dropdownBtn.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown();
+    });
+
+    dropdownBtn2.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown2();
+    });
+
+    dropdownBtn3.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown3();
+    });
+
+    dropdownBtn4.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown4();
+    });
+
+    dropdownBtn5.addEventListener("click", function (e) {
+        e.stopPropagation();
+        toggleDropdown5();
+    });
+
+    // Close dropdown when dom element is clicked
+    // document.documentElement.addEventListener("click", function () {
+    //     if (dropdownMenu.classList.contains("show")) {
+    //         toggleDropdown();
+    //     }
+    // });
+
+    // document.documentElement.addEventListener("click", function () {
+    //     if (dropdownMenu2.classList.contains("show")) {
+    //         toggleDropdown2();
+    //     }
+    // });
+
+</script>

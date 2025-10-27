@@ -1,0 +1,61 @@
+.usefully__container{
+    margin-top: 550px;
+    background-image: url("../../img/bg/usefully-bg.jpg");
+    height: 1350px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.usefully__content{
+    margin: 0 auto;
+    // border: 1px solid red;
+    /* top | right | bottom | left */
+    padding: 72px 0 0 21px;
+    width: 1642px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+
+}
+
+.usefully__cards{
+    display: flex;
+    gap: 6px;
+
+    .usefully__cards--one{
+        position: relative;
+        width: 395px;
+        height: 807px;
+        // border: 1px solid red;
+        background-image: url("../../img/random/horizon-forbidden-3840x2160-10643.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        transition: all linear .2s;
+    }
+
+    .usefully__cards-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 39px;
+        position: absolute;
+        bottom: 74px;
+        left: 1.5rem;
+        // border: 1px solid red;
+        width: 342px;
+    }
+
+    .usefully__cards-info p{
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .usefully__cards--one:hover{
+        filter: grayscale(100%);
+        transition: all linear .2s;
+        cursor: pointer;
+    }
+}

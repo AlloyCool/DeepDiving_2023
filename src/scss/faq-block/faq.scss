@@ -1,0 +1,31 @@
+.faq__container{
+    height: 140vh;
+    background-image: url("../../img/bg/faq-bgim.png");
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.faq__content{
+    margin: 90px auto;
+
+    padding: 62px 0 34px 21px;
+    // border: 1px solid red;
+    width: 1642px;
+
+    display: flex;
+    // align-items: center;
+    justify-content: space-between;
+}
+
+.faq__list{
+    margin-top: 120px;
+}
+
+.dropdown__inner li{
+    list-style:decimal;
+    width: 693px;
+    font-size: 32px;
+    font-weight: 400;
+}

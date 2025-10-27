@@ -1,0 +1,26 @@
+/* Base */
+@import "./base/reset";
+@import "./base/vars";
+@import "./base/base";
+@import "./base/utils";
+@import "./base/containers";
+@import "./base/sticky-footer";
+
+/* Blocks */
+@import "./blocks/*.scss";
+@import "./services-block/*.scss";
+@import "./footer-block/*.scss";
+@import "./usefully-block/*.scss";
+@import "./brands-block/*.scss";
+@import "./advantages-block/*.scss";
+@import "./rates-block/*.scss";
+@import "./faq-block/*.scss";
+@import "./feedback-block/*.scss";
+@import "./reviews-block/*.scss";
+@import "./team-block/*.scss";
+
+
+@import "./UI/*.scss";
+
+
+

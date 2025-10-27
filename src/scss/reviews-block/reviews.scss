@@ -1,0 +1,147 @@
+.reviews__container{
+    height: 100vh;
+}
+
+.reviews__content{
+    padding: 0 0 0 21px;
+    margin: 0 auto;
+    width: 1642px;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: space-between;  
+}
+
+.reviews__header{
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+
+    // border: 1px solid red;
+}
+
+
+.reviews__controller{
+    width: 739px;
+    // height: 108px;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    // border: 1px solid red;
+    border-radius: 16px;
+}
+
+.reviews__controller-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:21px 43px;
+
+    height: 108px;
+    border: 1px solid white;
+    border-radius: 16px;
+    transition: all .2s linear;
+
+}
+
+
+
+.reviews__controller-box{
+    display: flex;
+    gap: 51px;
+    font-size: 32px;
+}
+
+#reviews__controller-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 100%;
+    width: 66px;
+    height: 66px;
+    border: 1px solid white;
+    transition: all .2s linear;
+}
+
+.reviews__controller-item:hover{
+    background-color: #2A313C;
+    cursor: pointer;
+    transition: all .2s linear;
+    border: 1px solid transparent;
+
+    #reviews__controller-arrow{
+        transform: rotate(-45deg);
+        transition: all .2s linear;
+        background-color: white;
+        color: black;
+    }
+
+    span{
+        color: #FFC96F;
+    }
+
+}
+
+
+.reviews__main{
+    // border: 1px solid red;
+    width: 758px;
+
+    margin-top: 335px;
+}
+
+.reviews__main-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    // border: 1px solid red;
+
+    .reviews__main-customer{
+        object-fit: cover;
+        background-position: center center;
+    
+        width: 626px;
+        height: 339px;
+        border-radius: 16px;
+        // border: 1px solid red;
+    }
+
+
+
+    .reviews__main-info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        small{
+            font-weight: 600;
+            font-size: 25px;
+            color: #FFC96F;
+        }
+
+        p{
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .reviews__main-stars{
+            display: flex;
+            gap:5px;
+            font-size: 50px;
+            color: #FFC96F;
+
+            img{
+                width: 50px;
+                height: 50px;
+            }
+        }
+
+    }
+
+}
+
+
+
